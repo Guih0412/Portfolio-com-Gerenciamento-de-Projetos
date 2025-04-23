@@ -1,3 +1,4 @@
+
 # 📁 Portfólio Acadêmico
 
 Este repositório contém meu portfólio acadêmico, com informações sobre minha formação, projetos, habilidades, certificações e contatos.
@@ -23,6 +24,7 @@ Este repositório contém meu portfólio acadêmico, com informações sobre min
 8. **Instalar o EJS**: Execute o comando `npm install ejs --save`.
 9. **Configurar e exibir HTML com EJS**: Crie uma pasta chamada views, e dentro dela o arquivo `index.ejs` onde será exibido o site.
 10. **Atualizar app.js para usar o EJS**: No arquivo `app.js`, configure o motor de visualização EJS e renderize o arquivo `index.ejs`.
+
 
 
 ## Etapas para rodar o portifólio
