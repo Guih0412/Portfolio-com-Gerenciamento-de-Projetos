@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <%- include('partials/navbar') %>
+
+        <main>
+            <div class="container mt-5">
+                <h1 class="text-center mb-5"
+                    style="color: #39033a; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">
+                    Sejam bem-vindos ao meu portfólio</h1>
+
+                <div class="row align-items-center">
+                    <!-- Coluna: Sobre mim -->
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h2
+                            style="color: #39033a; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">
+                            Sobre mim 👨🏻‍💻</h2>
+                        <p>
+                            Me chamo Guilherme Henrique, tenho 19 anos, sou ex-aluno do Colégio Embraer Juarez Wanderley
+                            e atualmente curso o 3º semestre de Análise e Desenvolvimento de Sistemas na FATEC São José
+                            dos Campos.
+                            <br><br>
+                            Tenho bastante interesse na área de programação e estou sempre buscando aprender coisas
+                            novas, me envolver em projetos desafiadores e aplicar na prática o que venho estudando.
+                            Gosto de explorar soluções criativas, entender como a tecnologia funciona por trás dos
+                            bastidores e evoluir tanto tecnicamente quanto pessoalmente.
+                            <br><br>
+                            Atualmente, estou em busca de uma oportunidade de estágio que me permita ganhar experiência
+                            e contribuir com o que já aprendi até aqui.
+
+                        </p>
+                    </div>
+
+                    <!-- Coluna: Foto -->
+                    <div class="col-md-6 text-center">
+                        <img src="/images-pdfs/MinhaFoto.jpg" alt="Minha foto" class="img-fluid rounded shadow w-100%"
+                            style="height: 320px; object-fit: cover;">
+                    </div>
+                </div>
+                <hr class="my-5" style="border-top: 5px solid rgb(0, 0, 0)">
+
+            </div>
+
+            <!-- Seção: Meu Currículo -->
+            <section class="container mb-5">
+                <div class="row align-items-center">
+
+                    <!-- Coluna: Ilustração-->
+                    <div class="col-md-6 text-center">
+                        <img src="/images-pdfs/IconeCurriculo.png" alt="Ilustração currículo" class="img-fluid"
+                            style="max-height: 320px;">
+                    </div>
+
+                    <!-- Coluna: Texto + Botão -->
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <h2
+                            style="color: #39033a; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                            Meu Currículo 📄
+                        </h2>
+                        <p>
+                            Aqui você pode conferir meu currículo completo com mais informações sobre minha formação,
+                            experiências e
+                            habilidades. Sinta-se à vontade para baixar o PDF!
+                        </p>
+                        <a href="https://www.cvwizard.com/d/7jPOboKJIoruGV3VowZFm/view" class="btn mt-3" target="_blank"
+                            style="background-color: #39033a; color: white;">
+                            <i class="fas fa-download me-2"></i> Acessar Currículo
+                        </a>
+                    </div>
+
+                    <hr class="my-5" style="border-top: 5px solid rgb(0, 0, 0)">
+                </div>
+            </section>
+
+            <!-- Seção: Soft Skills e Tecnologias -->
+            <section class="container mb-5">
+                <div class="row">
+                    <h2 class="card-title text-center mb-4" style="color: #39033a; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                        Habilidades e Competências
+                    </h2>
+
+                    <!-- Seção: Soft Skills e Tecnologias -->
+                    <section class="container mb-5">
+                        <div class="row">
+                            <!-- Coluna: Soft Skills -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card border-0 shadow-sm h-100"
+                                    style="border-left: 5px solid #7e3f98; background: #e8d7f7;">
+                                    <div class="card-body">
+                                        <h2 class="card-title text-center mb-4" style="color: #39033a; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"">
+                                            Soft Skills 🤝
+                                        </h2>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check-circle text-success me-2"></i> Comunicação</li>
+                                            <li><i class="fas fa-check-circle text-success me-2"></i> Trabalho em equipe
+                                            </li>
+                                            <li><i class="fas fa-check-circle text-success me-2"></i> Resolução de
+                                                problemas</li>
+                                            <li><i class="fas fa-check-circle text-success me-2"></i> Proatividade</li>
+                                            <li><i class="fas fa-check-circle text-success me-2"></i> Adaptabilidade
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Coluna: Tecnologias -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card border-0 shadow-sm h-100"
+                                    style="border-left: 5px solid #7e3f98; background: #e8d7f7;">
+                                    <div class="card-body text-center">
+                                        <h2 class="card-title mb-4" style="color: #39033a; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                                            Tecnologias 💻
+                                        </h2>
+                                        <div class="d-flex flex-wrap justify-content-center align-items-center gap-4">
+                                            <!-- HTML -->
+                                            <i class="fab fa-html5 fa-3x text-danger" title="HTML"></i>
+                                        
+                                            <!-- CSS -->
+                                            <i class="fab fa-css3-alt fa-3x text-primary" title="CSS"></i>
+                                        
+                                            <!-- Java -->
+                                            <i class="fab fa-java fa-3x" style="color: #f8981d;" title="Java"></i>
+                                        
+                                            <!-- JavaScript -->
+                                            <i class="fab fa-js fa-3x text-warning" title="JavaScript"></i>
+                                        
+                                            <!-- Bootstrap -->
+                                            <i class="fab fa-bootstrap fa-3x" style="color: #7952b3;" title="Bootstrap"></i>
+                                        
+                                            <!-- Python -->
+                                            <i class="fab fa-python fa-3x" style="color: #3776ab;" title="Python"></i>
+                                        
+                                            <!-- Node.js -->
+                                            <i class="fab fa-node fa-3x text-success" title="Node.js"></i>
+                                        
+                                            <!-- TypeScript -->
+                                            <i class="fab fa-js-square fa-3x" style="color: #007acc;" title="TypeScript"></i>
+                                        
+                                            <!-- React -->
+                                            <i class="fab fa-react fa-3x" style="color: #61dafb;" title="React"></i>
+                                        
+                                            <!-- MySQL -->
+                                            <i class="fab fa-database fa-3x text-primary" title="MySQL"></i>
+                                        
+                                            <!-- JIRA -->
+                                            <i class="fab fa-atlassian fa-3x" style="color: #0065ff;" title="JIRA"></i>
+                                        
+                                            <!-- GitHub -->
+                                            <i class="fab fa-github fa-3x text-dark" title="GitHub"></i>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </section>
+
+
+
+
+
+
+        </main>
+        <%- include('partials/footer') %>
+
+
+
+
+
+</body>
+
+</html>
