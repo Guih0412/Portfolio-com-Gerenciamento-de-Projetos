@@ -32,3 +32,9 @@ node app.js
 ```bash
 http://localhost:3000
 ```
+
+## Como acessar o portfólio na web?
+
+Eu hospedei meu portfólio usando o Render Dashboard, para que possa ser acessado por qualquer pessoa na web. Você pode visualizar o meu portfólio no link abaixo:
+[**Acessar Portfólio**](https://portfolio-dlm7.onrender.com)
+
