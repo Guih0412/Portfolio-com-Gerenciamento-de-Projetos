@@ -14,12 +14,14 @@ app.set('view engine', 'ejs'); // Usando EJS como motor de visualização
 
 // Rota para a página inicial
 app.get('/', function (req, res) {
-  res.render("index"); // Renderiza o arquivo index.ejs
+  const home= "Sejam bem vindos ao meu portifólio"
+  res.render("index", {home:home}); // Renderiza o arquivo index.ejs
 });
 
 // Rota para a página de projetos
 app.get('/projetos', (req, res) => {
-  res.render('projetos'); // Renderiza o arquivo projetos.ejs
+  const projeto= "Acesse os meus portifólios"
+  res.render('projetos', {projeto: projeto}); // Renderiza o arquivo projetos.ejs
 });
 
 // Iniciando o servidor na porta 3000
