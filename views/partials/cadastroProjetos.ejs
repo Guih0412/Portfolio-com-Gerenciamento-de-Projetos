@@ -1,0 +1,43 @@
+<section class="container mb-5">
+    <h1 class="text-center mb-2"
+        style="color: #39033a; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Adicione novos
+        Projetos</h1>
+    <div class="p-4 rounded shadow" style="background-color: #f3e8ff;">
+        <div class="row align-items-center">
+            <form action="/gerenciamentoProjetos" method="POST">
+
+                <div class="mb-3">
+                    <input type="text" id="nome" name="nome" required placeholder="Nome do Projeto"
+                        style="all: unset; border-bottom: 1px solid #ccc;width: 100%;padding: 4px 0;cursor: text; color:#39033a;">
+                </div>
+
+                <div class="mb-3">
+                    <input type="text" id="descricao" name="descricao" required placeholder="Descrição"
+                        style="all: unset; border-bottom: 1px solid #ccc;width: 100%;padding: 4px 0;cursor: text; color:#39033a;">
+                </div>
+
+                <div class="mb-3">
+                    <input type="text" id="tecnologias" name="tecnologias" required placeholder="Tecnologias usadas"
+                        style="all: unset; border-bottom: 1px solid #ccc;width: 100%;padding: 4px 0;cursor: text; color:#39033a;">
+                </div>
+
+
+                <div class="mb-3">
+                    <input type="url" id="link" name="link" required placeholder="Link do repositório"
+                        style="all: unset; border-bottom: 1px solid #ccc;width: 100%;padding: 4px 0;cursor: text; color:#39033a;">
+                </div>
+
+                <div class="mb-3">
+                    <input type="url" id="imagem" name="imagem" required placeholder="Imagem do Projeto"
+                        style="all: unset; border-bottom: 1px solid #ccc;width: 100%;padding: 4px 0;cursor: text; color:#39033a;">
+                </div>
+
+                <button type="submit" class="btn mt-3" style="background-color: #39033a; color: white;">Adicionar
+                    Projeto
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <hr class="my-5" style="border-top: 5px solid rgb(0, 0, 0)">
+</section>

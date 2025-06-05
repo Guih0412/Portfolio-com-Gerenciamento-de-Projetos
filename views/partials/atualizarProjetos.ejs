@@ -1,0 +1,55 @@
+<div class="modal fade" id="atualizarProjetos_<%= p.id %>" tabindex="-1" aria-labelledby="modalLabel_<%= p.id %>" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: #f3e8ff;">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: #39033a; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" id="modalLabel_<%= p.id %>">
+          Atualização de projeto
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+
+      <hr style="margin: 0; border: 1px solid #000000;">
+
+      <form action="/gerenciamentoProjetos/<%= p.id %>/update" method="POST" class="form-excluir">
+        <div class="modal-body">
+          <div class="mb-3">
+            <input type="text" id="nome" name="nome" required placeholder="Nome do Projeto"
+              value="<%= p.nome %>"
+              style="all: unset; border-bottom: 1px solid #ccc; width: 100%; padding: 4px 0; cursor: text; color:#39033a;">
+          </div>
+
+          <div class="mb-3">
+            <input type="text" id="descricao" name="descricao" required placeholder="Descrição"
+              value="<%= p.descricao %>"
+              style="all: unset; border-bottom: 1px solid #ccc; width: 100%; padding: 4px 0; cursor: text; color:#39033a;">
+          </div>
+
+          <div class="mb-3">
+            <input type="text" id="tecnologias" name="tecnologias" required placeholder="Tecnologias usadas"
+              value="<%= p.tecnologias %>"
+              style="all: unset; border-bottom: 1px solid #ccc; width: 100%; padding: 4px 0; cursor: text; color:#39033a;">
+          </div>
+
+          <div class="mb-3">
+            <input type="url" id="link" name="link" required placeholder="Link do repositório"
+              value="<%= p.link %>"
+              style="all: unset; border-bottom: 1px solid #ccc; width: 100%; padding: 4px 0; cursor: text; color:#39033a;">
+          </div>
+
+          <div class="mb-3">
+            <input type="url" id="imagem" name="imagem" required placeholder="Imagem do Projeto"
+              value="<%= p.imagem %>"
+              style="all: unset; border-bottom: 1px solid #ccc; width: 100%; padding: 4px 0; cursor: text; color:#39033a;">
+          </div>
+        </div>
+
+        <hr style="margin: 0; border: 1px solid #000000;">
+
+        <div class="modal-footer">
+          <button type="button" class="btn mt-3" style="background-color: #39033a; color: white;" data-bs-dismiss="modal">Voltar</button>
+          <button type="submit" class="btn mt-3" style="background-color: #bb0000; color: white;">Atualizar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

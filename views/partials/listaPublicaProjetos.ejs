@@ -1,0 +1,33 @@
+<section class="container mb-5">
+    <% projetos.forEach(p=> { %>
+        <div class="p-4 rounded shadow mb-4" style="background-color: #f3e8ff;">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                        <h3>Projeto: <%= p.nome %>
+                        </h3>
+                    </div>
+                    <p><strong>Descrição:</strong>
+                        <%= p.descricao %>
+                    </p>
+                    <p><strong>Tecnologias Utilizadas:</strong>
+                        <%= p.tecnologias %>
+                    </p>
+                    <p><strong>Repositório:</strong>
+                        <a href="<%= p.link %>" target="_blank" rel="noopener noreferrer" style="color: #39033a;">
+                            <%= p.link.split('/').pop() %>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="<%= p.imagem %>" alt="Imagem de <%= p.nome %>" class="img-fluid rounded
+                    " style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5" style="border-top: 5px solid rgb(0, 0, 0)">
+
+        <% }) %>
+
+</section>
