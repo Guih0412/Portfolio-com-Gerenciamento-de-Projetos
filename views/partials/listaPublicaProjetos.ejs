@@ -41,23 +41,7 @@
                             Acessar Repositório
                         </a>
 
-
-                        <div class="d-flex justify-content-center gap-2">
-                            <button type="button" class="btn btn-sm" style="background-color: #39033a; color: white;"
-                                data-bs-toggle="modal" data-bs-target="#atualizarProjetos_<%= p.id %>">
-                                Atualizar Projeto
-                            </button>
-                            <%- include('atualizarProjetos', { p: p }) %>
-
-                                <button type="button" class="btn btn-sm"
-                                    style="background-color: #bb0000; color: white;" data-bs-toggle="modal"
-                                    data-bs-target="#excluirProjetos_<%= p.id %>">
-                                    Excluir Projeto
-                                </button>
-                                <%- include('excluirProjetos', { p: p }) %>
-                        </div>
                     </div>
-
                 </div>
             </div>
             <% }) %>

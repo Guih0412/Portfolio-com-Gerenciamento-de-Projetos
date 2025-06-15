@@ -10,10 +10,9 @@ nome VARCHAR(100),
 
 descricao TEXT,
 
+imagem VARCHAR(256),
 
 link VARCHAR(256),
-
-imagem VARCHAR(256),
 
 tecnologias TEXT
 
