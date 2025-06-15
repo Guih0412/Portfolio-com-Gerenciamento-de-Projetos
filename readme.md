@@ -55,9 +55,7 @@ Além da interface gráfica, o sistema disponibiliza rotas de **API** para integ
   "descricao": "Descrição breve do projeto",
   "tecnologias": "Tecnologias usadas no projeto",
   "link": "https://github.com/usuario/repositorio",
-  "exemplo (url de repositório)": "https://github.com/Titus-System/InsightFlow",
   "imagem": "https://raw.githubusercontent.com/USUARIO/REPOSITORIO/BRANCH/caminho/para/imagem.png", 
-  "exemplo (url de imagem)": "https://raw.githubusercontent.com/Titus-System/InsightFlow/main/docs/logo_if_semfundo.png"
 }
 ```
 
