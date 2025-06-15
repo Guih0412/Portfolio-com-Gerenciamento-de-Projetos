@@ -59,7 +59,7 @@ Além da interface gráfica, o sistema disponibiliza rotas de **API** para integ
   "imagem": "https://raw.githubusercontent.com/USUARIO/REPOSITORIO/BRANCH/caminho/para/imagem.png", 
   "exemplo (url de imagem)": "https://raw.githubusercontent.com/Titus-System/InsightFlow/main/docs/logo_if_semfundo.png"
 }
-
+```
 
 ### 🧪 Exemplo de corpo JSON para POST/PUT
 
